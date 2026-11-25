@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "会话日志自愈",
+    "description": "校验 DSH 会话日志，在会话写入锁保护下保留全部记录并修复可恢复的压缩帧布局。",
+    "detail": "docs/DETAIL.md"
+  }
+}

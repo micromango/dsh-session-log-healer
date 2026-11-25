@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Session log healer",
+    "description": "Checks DSH session logs and repairs recoverable frame layouts under the persistence write lease, preserving every record.",
+    "detail": "docs/DETAIL.md"
+  }
+}
