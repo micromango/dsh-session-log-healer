@@ -1,5 +1,7 @@
 # Changelog
 
+**简体中文** | [English](CHANGELOG.en.md)
+
 ## 1.1.0 — 2026-11-25
 
 - 解压并验证全部 zstd 帧，保留会话头和所有事件记录。

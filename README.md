@@ -1,5 +1,7 @@
 # DSH Session Log Healer
 
+**简体中文** | [English](README.en.md)
+
 [![Tests](https://github.com/micromango/dsh-session-log-healer/actions/workflows/test.yml/badge.svg)](https://github.com/micromango/dsh-session-log-healer/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
