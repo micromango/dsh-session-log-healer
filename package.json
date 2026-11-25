@@ -1,0 +1,50 @@
+{
+  "name": "@local/dsh-session-log-healer",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Safely checks DSH session logs and repairs validated zstd frame layouts under the persistence backend's write lease.",
+  "license": "MIT",
+  "author": "micromango",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micromango/dsh-session-log-healer.git"
+  },
+  "homepage": "https://github.com/micromango/dsh-session-log-healer#readme",
+  "bugs": {
+    "url": "https://github.com/micromango/dsh-session-log-healer/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "zstd",
+    "session-log",
+    "recovery"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "test",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
